@@ -29,7 +29,7 @@ const Template: ComponentStory<typeof RestaurantCard> = (args) => <RestaurantCar
 
 export const Default = Template.bind({})
 Default.args = {
-  ...restaurants[0],
+  ...restaurants[1],
 }
 
 export const New = Template.bind({})
