@@ -18,7 +18,6 @@ const StyledButton = styled.button<{
     outline: none;
     border: 0;
     font-family: 'Hind';
-    font-weight: bold;
     border-radius: ${round ? borderRadius.xl : borderRadius.xs};
     display: inline-flex;
     align-items: center;
