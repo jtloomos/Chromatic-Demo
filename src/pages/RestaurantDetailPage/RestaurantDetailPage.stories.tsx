@@ -46,7 +46,7 @@ WithModalOpen.play = async ({ canvasElement }) => {
   const canvas = within(canvasElement)
   const item = await canvas.findByText(/Cheeseburger/i)
   await userEvent.click(item)
-  await expect(canvas.getByTestId('modal')).not.toBeInTheDocument()
+  await expect(canvas.getByTestId('modal')).toBeInTheDocument()
 }
 WithModalOpen.parameters = {
   ...Success.parameters,
